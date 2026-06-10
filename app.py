@@ -9,9 +9,9 @@ st.write("Tente adivinhar a palavra secreta de 5 letras!")
 
 # ATENÇÃO: Enquanto testamos no computador, a URL é a do localhost (127.0.0.1:8000)
 # Quando jogarmos na nuvem, vamos trocar esse link pelo link da Render!
-API_URL = "http://127.0.0.1:8000/verificar"
-API_URL_REINICIAR = "http://127.0.0.1:8000/reiniciar"
-API_URL_REVELAR = "http://127.0.0.1:8000/revelar"
+API_URL = "https://termo-api-5hlq.onrender.com/verificar"
+API_URL_REINICIAR = "https://termo-api-5hlq.onrender.com/reiniciar"
+API_URL_REVELAR = "https://termo-api-5hlq.onrender.com/revelar"
 
 # Inicializar o estado do jogo se não existir
 if "tentativas" not in st.session_state:
